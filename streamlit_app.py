@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import urllib.parse
 
 st.set_page_config(
     page_title="My Portfolio",
@@ -169,8 +170,6 @@ st.divider()
 # Contak
 st.header("Get In Touch!")
 st.write("Please fill out the form to send me a message.")
-
-import urllib.parse
 
 MY_EMAIL = "spongebobrafael@gmail.com"
 
