@@ -232,7 +232,7 @@ st.divider()
 
 # Contak
 st.header("Get In Touch!")
-st.write("Please fill out the form to send me a message.")
+st.write("Please fill out the form to send me a message. Yes, this is functional (in a way).")
 
 MY_EMAIL = "spongebobrafael@gmail.com"
 
