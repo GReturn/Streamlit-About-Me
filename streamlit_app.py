@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(
     page_title="My Portfolio",
     page_icon="☝️",
-    layout="wide",
+    # layout="wide",
 )
 
 # Sidebar
@@ -87,7 +87,7 @@ with tab2:
         st.markdown(
             """
             - **Mobile:** (Kotlin, Jetpack Compose)
-            - **Desktop (Windows):** (.NET, WPF, WinForms)
+            - **Desktop (Windows):** (WPF, WinForms, JavaFX)
             - **Web:** (React, TypeScript)
             """
         )
