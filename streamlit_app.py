@@ -56,52 +56,52 @@ tab1, tab2 = st.tabs(["Autobiography", "My Skills"])
 with tab1:
     st.header("My Story")
     st.markdown(
-    """
-    ### Origin Story
+        """
+        ### Origin Story
 
-    Hello! I'm Rafael. I'm part of a mildly intelligent species (arguably).  
-    I possess XY chromosomes and currently inhabit a rocky planet the locals call **Earth**, in the **Milky Way galaxy**, right beside our neighbor **Andromeda**.
+        Hello! I'm Rafael. I'm part of a mildly intelligent species (arguably).  
+        I possess XY chromosomes and currently inhabit a rocky planet the locals call **Earth**, in the **Milky Way galaxy**, right beside our neighbor **Andromeda**.
 
-    Our ancestors took interest in this civilization -- the tech, the economy, the evolution, the chaos. 
-    As their descendants, we continue their job: **observe, experiment, and contribute meaningful data back home**.
-
-
-    ### Awakening of Interest
-
-    In all seriousness, my entry to tech started with watching Michael Reeves on YouTube. 
-
-    Yes. That guy.
-
-    He made tech feel like a sandbox where the only real limit is how terrible an idea you're willing to execute.
-
-    That idea stuck.
+        Our ancestors took interest in this civilization -- the tech, the economy, the evolution, the chaos. 
+        As their descendants, we continue their job: **observe, experiment, and contribute meaningful data back home**.
 
 
-    ### Today
+        ### Awakening of Interest
 
-    I'm currently a **3rd Year Computer Science student** at **Cebu Institute of Technology - University**.
+        In all seriousness, my entry to tech started with watching Michael Reeves on YouTube. 
 
-    I enjoy learning how systems work and how I can manipulate them to create things that are:
+        Yes. That guy.
 
-    - wacky
-    - fun
-    - or genuinely useful
+        He made tech feel like a sandbox where the only real limit is how terrible an idea you're willing to execute.
 
-    Sometimes all three at once.
+        That idea stuck.
 
 
-    ### My Drive
+        ### Today
 
-    Technology is basically a superpower disguised as code + hardware.
+        I'm currently a **3rd Year Computer Science student** at **Cebu Institute of Technology - University**.
 
-    I want to use that superpower to build things that:
+        I enjoy learning how systems work and how I can manipulate them to create things that are:
 
-    - help my community
-    - solve real problems
-    - or at least make someone laugh
+        - wacky
+        - fun
+        - or genuinely useful
 
-    **I believe tech has the power to build a better future, and I want to be part of that build process.**
-    """
+        Sometimes all three at once.
+
+
+        ### My Drive
+
+        Technology is basically a superpower disguised as code + hardware.
+
+        I want to use that superpower to build things that:
+
+        - help my community
+        - solve real problems
+        - or at least make someone laugh
+
+        **I believe tech has the power to build a better future, and I want to be part of that build process.**
+        """
     )
 
 with tab2:
