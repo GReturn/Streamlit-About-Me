@@ -236,7 +236,7 @@ st.write("Please fill out the form to send me a message. Yes, this is functional
 
 MY_EMAIL = "spongebobrafael@gmail.com"
 
-with st.form("contact_form", clear_on_submit=True):
+with st.form("contact_form", clear_on_submit=True, enter_to_submit=False):
     name = st.text_input("Your Name", placeholder="Juan C. Dela Cruz")
     email = st.text_input("Your Email", placeholder="juandelacruz@gmail.com")
     message = st.text_area("Your Message", placeholder="Your message here...")
