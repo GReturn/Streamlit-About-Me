@@ -138,7 +138,7 @@ st.divider()
 st.header("My Projects")
 st.write("Click to expand and learn more about my work.")
 
-with st.expander("Project 1: 3D Earthquake Visualizer (Deck.gl)"):
+with st.expander("3D Earthquake Visualizer (Deck.gl)"):
     st.markdown(
         """
         - **Description:** An interactive 3D cartograph visualizing earthquake
@@ -149,7 +149,7 @@ with st.expander("Project 1: 3D Earthquake Visualizer (Deck.gl)"):
     st.link_button("View on GitHub", "https://github.com/GReturn/philippines-equake-locator-3d")
 
 
-with st.expander("Project 2: BuzyPC"):
+with st.expander("BuzyPC"):
     st.markdown(
         """
         - **Description:** An AI-powered PC builder Android app based on the user's budget.
@@ -158,7 +158,7 @@ with st.expander("Project 2: BuzyPC"):
     )
     st.link_button("View on GitHub", "https://github.com/GReturn/BuzyPC")
 
-with st.expander("Project 3: FeelNEETS"):
+with st.expander("FeelNEETS"):
     st.markdown(
         """
         - **Description:** A Blazor web app that shows PhilNITS reviewers and answer keys from 2007 until 2025.
@@ -167,17 +167,51 @@ with st.expander("Project 3: FeelNEETS"):
     )
     st.link_button("View on GitHub", "https://github.com/GReturn/FeelNeets")
 
-with st.expander("Project 4: Sustaina"):
+with st.expander("Sustaina"):
     st.markdown(
         """
         - **Description:** A real-time Android app platform that leverages AI to crowdsource 
-        and visualize environmental issues. 
-        Through gamification, it fosters community engagement by rewarding users for reporting and resolving 
-        sustainability challenges, driving collective action for a greener future.
+        and visualize environmental issues.
         - **Tech Used:** Kotlin, Jetpack Compose, Google Maps API, Tensorflow, Firebase.
         """
     )
     st.link_button("View on GitHub", "https://github.com/Smoll05/hackaton-sustaina")
+
+
+with st.expander("AIO Stubu"):
+    st.markdown(
+        """
+        - **Description:** An All-In-One (AIO) Study Buddy (Stubu) desktop app. It is an 
+            offline-first productivity desktop application for Windows that 
+            equips students with essential study tools in one platform.
+        - **Tech Used:** Java, JavaFX.
+        """
+    )
+    st.link_button("View on GitHub", "https://github.com/liya28/AIOStuBu")
+
+
+with st.expander("FinishLine"):
+    st.markdown(
+        """
+        - **Description:** A JavaFX educational typing game. It is a school-based typing 
+            game that improves typing proficiency while reinforcing 
+            Computer Science concepts. 
+        - **Tech Used:** Java, JavaFX, JDBC, MySQL.
+        """
+    )
+    st.link_button("View on GitHub", "https://github.com/liya28/FinishLine")
+
+
+with st.expander("QR Genie"):
+    st.markdown(
+        """
+        - **Description:** A Java-based tool for batch QR code generation. Automates the 
+            creation of QR codes from Excel input and integrated them 
+            onto reference images. 
+        - **Tech Used:** Java.
+        """
+    )
+    st.link_button("View on GitHub", "https://github.com/GReturn/QR-Genie")
 
 st.divider()
 
