@@ -142,13 +142,42 @@ with st.expander("Project 1: 3D Earthquake Visualizer (Deck.gl)"):
     st.markdown(
         """
         - **Description:** An interactive 3D cartograph visualizing earthquake
-          data for the Philippines, built with Streamlit and Deck.gl.
+          data for the Philippines.
         - **Tech Used:** TypeScript, Mapbox, Deck.gl, and React.
         """
     )
     st.link_button("View on GitHub", "https://github.com/GReturn/philippines-equake-locator-3d")
 
 
+with st.expander("Project 2: BuzyPC"):
+    st.markdown(
+        """
+        - **Description:** An AI-powered PC builder Android app based on the user's budget.
+        - **Tech Used:** Kotlin.
+        """
+    )
+    st.link_button("View on GitHub", "https://github.com/GReturn/BuzyPC")
+
+with st.expander("Project 3: FeelNEETS"):
+    st.markdown(
+        """
+        - **Description:** A Blazor web app that shows PhilNITS reviewers and answer keys from 2007 until 2025.
+        - **Tech Used:** C#, .NET Blazor WebAssembly.
+        """
+    )
+    st.link_button("View on GitHub", "https://github.com/GReturn/FeelNeets")
+
+with st.expander("Project 4: Sustaina"):
+    st.markdown(
+        """
+        - **Description:** A real-time Android app platform that leverages AI to crowdsource 
+        and visualize environmental issues. 
+        Through gamification, it fosters community engagement by rewarding users for reporting and resolving 
+        sustainability challenges, driving collective action for a greener future.
+        - **Tech Used:** Kotlin, Jetpack Compose, Google Maps API, Tensorflow, Firebase.
+        """
+    )
+    st.link_button("View on GitHub", "https://github.com/Smoll05/hackaton-sustaina")
 
 st.divider()
 
