@@ -83,12 +83,12 @@ with tab2:
     skill_col1, skill_col2 = st.columns(2)
     
     with skill_col1:
-        st.subheader("Placeholder1")
+        st.subheader("Platform Development")
         st.markdown(
             """
-            - **Lorem:** (Ippsum, upsuem)
-            - **walk:** (sdfg, sdfsdf)
-            - **qppoe:** (fdgdsf, vggdf)
+            - **Mobile:** (Kotlin, Jetpack Compose)
+            - **Desktop (Windows):** (.NET, WPF, WinForms)
+            - **Web:** (React, TypeScript)
             """
         )
         
@@ -96,15 +96,15 @@ with tab2:
         st.subheader("Software Development")
         st.markdown(
             """
-            - **Backend:** (Spring Boot, REST APIs)
-            - **Visualization:** (Streamlit, Deck.gl, Matplotlib)
+            - **Backend:** (Java, C#, Python, REST APIs)
+            - **Visualization:** (Deck.gl, Seaborn)
             - **Tools:** (Git, Docker, VS Code)
             """
         )
         
     st.subheader("Skill Proficiency")
     st.write("A self-assessment of my key technical skills.")
-    st.progress(100, text="LLM Prompting")
+    st.progress(100, text="LLM Prompting 🙄")
     st.progress(80, text="Software Development")
     st.progress(20, text="DevOps")
 
@@ -141,7 +141,7 @@ with st.expander("Project 1: 3D Earthquake Visualizer (Deck.gl)"):
         """
         - **Description:** An interactive 3D cartograph visualizing earthquake
           data for the Philippines, built with Streamlit and Deck.gl.
-        - **Tech Used:** Streamlit, Pandas, Deck.gl, React (custom component).
+        - **Tech Used:** TypeScript, Mapbox, Deck.gl, and React.
         """
     )
     st.link_button("View on GitHub", "https://github.com/GReturn/philippines-equake-locator-3d")
