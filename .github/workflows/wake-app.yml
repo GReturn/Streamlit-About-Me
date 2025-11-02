@@ -1,0 +1,14 @@
+name: Wake App Up
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  wake-up:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send request to app
+        run: curl -s "MY_STREAMLIT_APP_URL" > /dev/null
+        env:
+          MY_STREAMLIT_APP_URL: ${{ secrets.STREAMLIT_APP_URL }}
