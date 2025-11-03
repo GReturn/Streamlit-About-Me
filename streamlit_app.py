@@ -133,7 +133,7 @@ with tab2:
     st.write("A self-assessment of my key technical skills.")
     st.progress(100, text="LLM Prompting 🙄")
     st.progress(80, text="Software Development")
-    st.progress(20, text="DevOps")
+    st.progress(20, text="DevOps (Willing to learn!)")
 
 st.divider()
 
