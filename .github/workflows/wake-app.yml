@@ -3,10 +3,22 @@ name: Wake App Up
 on:
   schedule:
     - cron: '0 */6 * * *'
+  
+  workflow_dispatch:
 
 jobs:
   wake-up:
     runs-on: ubuntu-latest
     steps:
-      - name: Send request to app
-        run: curl -s "${{ secrets.STREAMLIT_APP_URL }}" > /dev/null
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      
+      - name: Create empty commit and push
+        run: |
+          git commit --allow-empty -m "Scheduled commit to keep app awake"
+          git push
