@@ -147,13 +147,13 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("GitHub Stats")
     st.markdown(
-        f"![GitHub Stats](https://github-readme-stats.vercel.app/api?username={github_username}&show_icons=true&theme=transparent&hide_border=true&title_color=FF4B4B&text_color=FFFFFF&icon_color=FF4B4B)",
+        f"![GitHub Stats](https://github-readme-stats-eight-navy.vercel.app/api?username={github_username}&show_icons=true&theme=transparent&hide_border=true&title_color=FF4B4B&text_color=FFFFFF&icon_color=FF4B4B)",
         unsafe_allow_html=True
     )
 with col2:
     st.subheader("Top Languages")
     st.markdown(
-        f"![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={github_username}&&hide_border=true&title_color=FF4B4B&text_color=FFFFFF&icon_color=FF9900&theme=transparent&langs_count=6&hide=Assembly,CSS,HTML&layout=compact)",
+        f"![Top Languages](https://github-readme-stats-eight-navy.vercel.app/api/top-langs/?username={github_username}&&hide_border=true&title_color=FF4B4B&text_color=FFFFFF&icon_color=FF9900&theme=transparent&langs_count=6&hide=Assembly,CSS,HTML&layout=compact)",
         unsafe_allow_html=True
     )
 
